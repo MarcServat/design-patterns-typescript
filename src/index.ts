@@ -1,4 +1,6 @@
-import retrieveProduct from "./factory/Client";
+import { retrieveClassProduct, retrieveFunctionalProduct } from "./factory";
 
-
-console.log(retrieveProduct());
+export {
+    retrieveClassProduct,
+    retrieveFunctionalProduct
+}
